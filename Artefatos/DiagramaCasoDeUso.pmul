@@ -1,0 +1,88 @@
+@startuml
+top to bottom direction
+
+skinparam backgroundColor #F5F5F5
+skinparam actor {
+  BorderColor #4A90E2
+  BackgroundColor #D3E0EA
+  FontColor #333333
+  FontSize 14
+}
+skinparam usecase {
+  BorderColor #50C878
+  BackgroundColor #E8F5E9
+  FontColor #333333
+  FontSize 12
+}
+skinparam note {
+  BackgroundColor #FFF9C4
+  BorderColor #FFCA28
+  FontColor #333333
+}
+
+actor "Desenvolvedor React" as Dev #D3E0EA
+actor "Engenheiro de QA" as QA #D3E0EA
+actor "Pesquisador Acadêmico" as Researcher #D3E0EA
+actor "Equipe Ágil" as AgileTeam #D3E0EA
+
+package "Funcionalidades Principais" #E0F7FA {
+  usecase "Configurar Testes" as UC1 #E8F5E9
+  usecase "Executar Testes Automatizados" as UC2 #E8F5E9
+  usecase "Visualizar Relatórios" as UC3 #E8F5E9
+  usecase "Modificar Código-Fonte" as UC4 #E8F5E9
+}
+
+' Posicionamento dos atores na parte superior
+Dev -[hidden]right- QA
+QA -[hidden]right- Researcher
+Researcher -[hidden]right- AgileTeam
+
+' Conexões dos atores com casos de uso (de cima para baixo)
+Dev .[#4A90E2].> UC1 : Configura testes WebRTC
+QA .[#4A90E2].> UC1 : Configura cenários QA
+Researcher .[#4A90E2].> UC1 : Configura experimentos
+AgileTeam .[#4A90E2].> UC1 : Configura fluxos ágeis
+
+Dev .[#4A90E2].> UC2 : Executa simulações
+QA .[#4A90E2].> UC2 : Executa validações
+Researcher .[#4A90E2].> UC2 : Executa pesquisas
+AgileTeam .[#4A90E2].> UC2 : Executa testes team
+
+QA .[#4A90E2].> UC3 : Analisa métricas
+AgileTeam .[#4A90E2].> UC3 : Revisa relatórios
+
+Researcher .[#4A90E2].> UC4 : Modifica código
+
+' Relações entre casos de uso
+UC1 .[#50C878].> UC2 : <<extend>>
+UC2 .[#50C878].> UC3 : <<extend>>
+
+' Notas estilizadas
+note right of UC1 #FFF9C4
+  <b>Configuração:</b>
+  - Usuários virtuais (1-10)
+  - Tipos: Estabilidade/Qualidade
+  - APIs: WebRTC/Jitsi/Zoom
+end note
+
+note right of UC2 #FFF9C4
+  <b>Execução:</b>
+  - Usa Puppeteer
+  - Simulações reais
+end note
+
+note right of UC3 #FFF9C4
+  <b>Relatórios:</b>
+  - Métricas: Latência, Falhas
+  - Exporta: JSON/CSV
+end note
+
+note right of UC4 #FFF9C4
+  <b>Código:</b>
+  - Open-source (MIT)
+  - Modificável
+end note
+
+' Ajuste de layout
+center footer \nCriado por Rafael Parreira Chequer - 17/09/2025
+@enduml
