@@ -1,4 +1,4 @@
-# Memorial Descritivo da Graduação em Engenharia de Software
+# Memorial Descritivo da Graduação em Engenharia de Software Iniciada em 2023 com Término previsto para Primeiro Semestre de 2026 
 **Rafael Parreira Chequer**  
 **PUC Minas**  
 **17 de agosto de 2025**
