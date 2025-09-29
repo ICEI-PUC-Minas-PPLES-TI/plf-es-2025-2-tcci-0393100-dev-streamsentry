@@ -23,6 +23,4 @@ Como projeto interno proposto pelo estudante, o *VideoTestHub* não exige carta 
 
 O *VideoTestHub* está plenamente alinhado à Resolução de TCC I e ao Salão de Ferramentas do CBSoft, oferecendo uma solução inovadora para automação de testes em aplicações React de vídeo chamadas. A ferramenta melhora a eficiência no desenvolvimento e manutenção de software, beneficiando equipes ágeis, pesquisadores e a comunidade de desenvolvedores em geral. O próximo passo é a elaboração do Documento de Visão, detalhando escopo, usuários e necessidades, para a entrega de 03/09/2025.
 
-**Contagem de palavras**: 832
-
 </xaiArtifact>
