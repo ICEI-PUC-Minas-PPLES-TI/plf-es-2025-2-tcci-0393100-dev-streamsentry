@@ -9,8 +9,10 @@
 
 ## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
+* Cleiton Silva Tavares
+* Danilo de Quadros Maia Filho
+* Leonardo Vilela Cardoso
+* Raphael Ramos Dias Costa
 
 ## Instruções de utilização
 
